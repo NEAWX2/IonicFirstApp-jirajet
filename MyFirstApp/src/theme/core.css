@@ -1,0 +1,52 @@
+.ios, .md {
+  --ion-background-color: #f5e8d9; /* สีเบจอ่อน */
+  background-image: linear-gradient(to right, #f5e8d9, #e6d5c3); /* ไล่เฉดสีเบจ */
+}
+
+ion-toolbar {
+  --background: #e6d5c3; /* พื้นหลังสีเบจเข้มขึ้นเล็กน้อย */
+  --color: #5c5346; /* สีข้อความโทนเข้มแบบอบอุ่น */
+  border-bottom: 1px solid #d4c4af; /* เส้นแบ่งสีอ่อน */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* เพิ่มเงาเบา ๆ */
+}
+
+ion-item {
+  --background-hover: #eadfcf; /* สีพื้นหลังเมื่อ hover */
+  color: #5c5346; /* สีข้อความโทนเข้ม */
+  font-size: 1rem; /* ขนาดตัวอักษรกำลังดี */
+  padding: 0.75rem 1rem; /* เพิ่มระยะห่างรอบตัว */
+  border-radius: 6px; /* มุมมน */
+  transition: background-color 0.3s ease, color 0.3s ease; /* เพิ่มเอฟเฟกต์เปลี่ยนสี */
+}
+
+ion-item:hover {
+  background-color: #d4c4af; /* สีพื้นหลังเมื่อ hover */
+  color: #3f3a32; /* สีข้อความเข้มขึ้น */
+}
+
+ion-back-button {
+  color: #5c5346 !important; /* สีข้อความเข้ม */
+  --color-focused: #3f3a32; /* สีเข้มขึ้นเมื่อโฟกัส */
+  --color-hover: #3f3a32; /* สีเข้มขึ้นเมื่อ hover */
+  background-color: #eadfcf; /* เพิ่มพื้นหลังเบา ๆ */
+  border-radius: 6px; /* มุมมน */
+  padding: 0.5rem 1rem; /* เพิ่มพื้นที่รอบ */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* เพิ่ม transition */
+}
+
+ion-back-button:hover {
+  background-color: #d4c4af; /* เปลี่ยนพื้นหลังเมื่อ hover */
+  transform: scale(1.05); /* เพิ่มขนาดเล็กน้อย */
+}
+p {
+  font-size: 1rem;
+  line-height: 1.8; 
+  color: #6e665c; /* สีข้อความโทนอ่อนแบบอบอุ่น */
+  margin-bottom: 1rem;
+  text-align: justify; /* จัดข้อความให้ชิดขอบทั้งสองด้าน */
+}
+
+p:hover {
+  color: #3f3a32; /* สีข้อความเข้มขึ้นเมื่อ hover */
+  transition: color 0.3s ease; /* เพิ่ม transition */
+}
